@@ -142,7 +142,13 @@ def ask_gpt(msg):
         print("GPT ERROR:", e)
 
         return "⚠️ AI đang bận, vui lòng thử lại sau."
+# =========================
+# HOME
+# =========================
 
+@app.route("/")
+def home():
+    return "Chatbot AI đang hoạt động!"
 # =========================
 # CHAT API
 # =========================
