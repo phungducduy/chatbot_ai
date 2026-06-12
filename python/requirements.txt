@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+pandas
+numpy
+PyMySQL
+sentence-transformers
+torch
+openai
+gunicorn
